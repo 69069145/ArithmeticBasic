@@ -1,0 +1,30 @@
+---
+output:
+  md_document:
+    variant: markdown_github
+---
+
+This is readme for home work 8. The package which I created is **ArithmeticBasic**. I tried building a new package from scratch. This package has one function **square_vect** which gives the square value of the input. More functions can be added to perform more arithmetic functions. This package can be used through the steps given below.
+
+### Import devtools
+
+``` {r}
+library(devtools)
+```
+
+### Installing package
+
+``` {r}
+install_github("69069145/ArithmeticBasic")
+library(ArithmeticBasic)
+```
+
+Now having installed and loaded this package we can use the functions inside the package
+
+```{r, echo = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "README-"
+)
+```
