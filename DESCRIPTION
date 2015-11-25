@@ -6,5 +6,10 @@ Description: What the package does (one paragraph).
 Depends: R (>= 3.2.2)
 License: MIT + file LICENSE
 LazyData: true
-Suggests: testthat
+Suggests: testthat,
+    knitr,
+    rmarkdown
 Imports: dplyr
+VignetteBuilder: knitr
+URL: https://github.com/69069145/ArithmeticBasic
+BugReports: https://github.com/69069145/ArithmeticBasic/issues
